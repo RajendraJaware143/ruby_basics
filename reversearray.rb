@@ -8,5 +8,17 @@ def rev(a)
   return c
 end
 z = rev([2,4,6,8,20,24,65,43])
-
+=begin
 puts "#{z}"
+puts "Enter the number : "
+n =gets.chomp.to_i
+
+def is_even(x)
+	if x%2==0
+		puts "The number is even"
+	else
+		puts "The number is odd"
+	end
+end
+is_even(n)
+=end
